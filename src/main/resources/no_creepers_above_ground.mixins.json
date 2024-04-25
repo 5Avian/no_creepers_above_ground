@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fiveavian.no_creepers_above_ground.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "SpawnRestrictionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

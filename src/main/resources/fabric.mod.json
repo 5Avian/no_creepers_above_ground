@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "no_creepers_above_ground",
+  "version": "${version}",
+  "name": "No Creepers Above Ground",
+  "description": "Stops Creepers (and optionally other mobs) from spawning where they can see the sky",
+  "authors": [
+    "5Avian"
+  ],
+  "contact": {
+    "repo": "https://github.com/5Avian/no_creepers_above_ground"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/no_creepers_above_ground/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fiveavian.no_creepers_above_ground.NoCreepersAboveGround"
+    ]
+  },
+  "mixins": [
+    "no_creepers_above_ground.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
